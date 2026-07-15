@@ -9,14 +9,14 @@
     {
       "name": "brainstorm",
       "displayName": "Brainstorm",
-      "description": "Generate, develop, and refine ideas across topics. Quick brainstorms for fast inspiration; deep brainstorms for richer multi-angle exploration with refined results.",
+      "description": "Generate, expand, and refine ideas across topics. Quick brainstorms for fast inspiration; deep brainstorms for richer multi-angle exploration with refined results.",
       "author": { "name": "Brainstorm Labs" },
       "category": "productivity",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/favonian-ai/plugins-public.git",
         "path": "brainstorm",
-        "sha": "a1295dea7b06c5acf9f6b9752fb71f8976ce398a"
+        "sha": "78aa70905d8f9acfea5651969c48962a23631499"
       }
     }
   ]

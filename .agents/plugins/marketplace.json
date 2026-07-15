@@ -1,0 +1,22 @@
+{
+  "name": "favonian-marketplace",
+  "interface": {
+    "displayName": "Favonian Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "brainstorm",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/favonian-ai/plugins-public.git",
+        "path": "./brainstorm",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
