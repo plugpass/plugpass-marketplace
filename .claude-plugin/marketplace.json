@@ -1,9 +1,9 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "favonian-marketplace",
-  "description": "A marketplace for plugins that use the Favonian platform",
+  "name": "plugpass-marketplace",
+  "description": "A marketplace for plugins that use the Plugpass platform",
   "owner": {
-    "name": "Favonian, Inc."
+    "name": "Plugpass"
   },
   "plugins": [
     {
@@ -14,9 +14,9 @@
       "category": "productivity",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/favonian-ai/plugins-public.git",
+        "url": "https://github.com/plugpass/plugins-public.git",
         "path": "brainstorm",
-        "sha": "78aa70905d8f9acfea5651969c48962a23631499"
+        "sha": "a2822e6d9a51b283fa02c058c0b8e5b8b3bcf2e8"
       }
     }
   ]

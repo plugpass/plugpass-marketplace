@@ -1,14 +1,14 @@
 {
-  "name": "favonian-marketplace",
+  "name": "plugpass-marketplace",
   "interface": {
-    "displayName": "Favonian Marketplace"
+    "displayName": "Plugpass Marketplace"
   },
   "plugins": [
     {
       "name": "brainstorm",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/favonian-ai/plugins-public.git",
+        "url": "https://github.com/plugpass/plugins-public.git",
         "path": "./brainstorm",
         "ref": "main"
       },
