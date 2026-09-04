@@ -1,5 +1,4 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "plugpass-marketplace",
   "description": "A marketplace for plugins that use the Plugpass platform",
   "owner": {
@@ -10,13 +9,28 @@
       "name": "brainstorm",
       "displayName": "Brainstorm",
       "description": "Generate, expand, and refine ideas across topics. Quick brainstorms for fast inspiration; deep brainstorms for richer multi-angle exploration with refined results.",
-      "author": { "name": "Brainstorm Labs" },
+      "author": {
+        "name": "Brainstorm Labs"
+      },
       "category": "productivity",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/plugpass/plugins-public.git",
         "path": "brainstorm",
         "sha": "519f5df633831d104ddde9164cf4ac6eceffb5ea"
+      }
+    },
+    {
+      "name": "plugpass",
+      "displayName": "Plugpass",
+      "description": "Monetize your AI plugins.",
+      "author": {
+        "name": "Plugpass"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/plugpass/publisher-plugin.git",
+        "sha": "ec37d01348b0d4a9a7805a377c58611831c35188"
       }
     }
   ]
